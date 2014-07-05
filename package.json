@@ -1,0 +1,28 @@
+{
+  "name": "pull-robin",
+  "version": "0.0.1",
+  "main": "./robin.js",
+  "description": "Read source pull-streams, in round robin fashion.",
+  "homepage": "https://github.com/tounano/pull-robin/",
+  "author": "ClickHere <js@clickhere.co.il>",
+  "keywords": [
+    "streams",
+    "pull-stream",
+    "round-robin"
+  ],
+  "licenses": {
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tounano/pull-robin"
+  },
+  "engines": {
+    "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
+  },
+  "dependencies": {
+    "pull-stream": "latest",
+    "underscore": "latest"
+  }
+}
