@@ -4,7 +4,13 @@ Read source pull-streams, in round robin fashion.
 
 ## Usage
 
-`robin(streams...)`
+`robin(?isSerial, streams...)`
+
+### args
+
+*  `isSerial` - optional. If set to true, it will wait for a response from a stream, before reading from the next. Default
+is false.
+*  `streams` - an array of `source` streams, or a list of `source` streams as args.
 
 ## Example
 
