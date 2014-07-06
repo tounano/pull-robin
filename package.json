@@ -1,6 +1,6 @@
 {
   "name": "pull-robin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./robin.js",
   "description": "Read source pull-streams, in round robin fashion.",
   "homepage": "https://github.com/tounano/pull-robin/",

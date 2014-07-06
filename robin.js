@@ -27,6 +27,7 @@ var robin = module.exports = pull.Source(function (streams) {
 
             cb(_end, data);
             streams.push(read)
+            return drain();
           })
         })(streams.shift(), reads[0][0], reads.shift()[1]);
 
